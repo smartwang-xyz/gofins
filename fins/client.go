@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const DEFAULT_RESPONSE_TIMEOUT = 20 // ms
+const DEFAULT_RESPONSE_TIMEOUT = 30 // ms
 
 // Client Omron FINS client
 type Client struct {
@@ -51,7 +51,7 @@ func (c *Client) SetByteOrder(o binary.ByteOrder) {
 }
 
 // Set response timeout duration (ms).
-// Default value: 20ms.
+// Default value: 30ms.
 // A timeout of zero can be used to block indefinitely.
 func (c *Client) SetTimeoutMs(t uint) {
 	c.responseTimeoutMs = time.Duration(t)
