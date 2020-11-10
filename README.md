@@ -17,4 +17,5 @@ There is simple Omron FINS Server (PLC emulator) in the fins/server.go
 github.com/l1va/gofins/fins
 
 Smartwang PS:
+
 I have tested with Omron PLC CP1H + CP1W-CIF41 (Net Module) 
