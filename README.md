@@ -14,8 +14,9 @@ Additional work in the siyka-au repository was tested against a <b>CP1L-EM</b>.
 There is simple Omron FINS Server (PLC emulator) in the fins/server.go 
 
  ### Thanks
-github.com/l1va/gofins/fins
+           github.com/l1va/gofins/fins
 
-Smartwang PS:
+
+ ### Smartwang PS:
 
 I have tested with Omron PLC CP1H + CP1W-CIF41 (Net Module) 
