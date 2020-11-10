@@ -19,4 +19,4 @@ There is simple Omron FINS Server (PLC emulator) in the fins/server.go
 
  ### Smartwang PS:
 
-I have tested with Omron PLC CP1H + CP1W-CIF41 (Net Module) 
+I have tested the example on Omron PLC CP1H + CP1W-CIF41 (Net Module) 
