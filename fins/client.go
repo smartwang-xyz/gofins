@@ -324,7 +324,8 @@ func checkIsWordMemoryArea(memoryArea byte) bool {
 	if memoryArea == MemoryAreaDMWord ||
 		memoryArea == MemoryAreaARWord ||
 		memoryArea == MemoryAreaHRWord ||
-		memoryArea == MemoryAreaWRWord {
+		memoryArea == MemoryAreaWRWord ||
+	        memoryArea == MemoryAreaCIOWord {
 		return true
 	}
 	return false
@@ -334,7 +335,8 @@ func checkIsBitMemoryArea(memoryArea byte) bool {
 	if memoryArea == MemoryAreaDMBit ||
 		memoryArea == MemoryAreaARBit ||
 		memoryArea == MemoryAreaHRBit ||
-		memoryArea == MemoryAreaWRBit {
+		memoryArea == MemoryAreaWRBit ||
+	        memoryArea == MemoryAreaCIOBit {
 		return true
 	}
 	return false
